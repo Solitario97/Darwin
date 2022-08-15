@@ -1,0 +1,186 @@
+/* ===================main================================== */
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #000
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+p{
+	margin: 0 0 10px;
+}
+/* ======================header=============================== */
+#coinPriceBlock-container {
+    overflow-x: visible;
+  }
+  .coinPriceBlock-footer {
+    display: none;
+  }
+  #coinmarketcap-widget-coin-price-block{
+	display: flex;
+	margin: 5px 0;
+	justify-content: center;
+	text-align: center;
+}
+.card{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 960px;
+	padding: 5px 5px 5px 5px;
+	border-color: #2479DF;
+	
+}
+.main_text{
+	position: absolute;
+	text-align: center;
+	top: 320px;
+	left: 740px;
+	z-index: 5;
+	font-weight: bold;
+}
+.card_img{
+	margin-right: 15px;
+	width: 300px;
+	height: 200px;
+}
+.whath_list_text{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: x-large;
+	font-weight: bold;
+}
+.whath_list{
+	position: absolute;
+	display: flex;
+}
+/* ===============колонка по центру============= */
+.center_things{
+	margin: 120px 407px;
+}
+
+/* ===============колонка слева============= */
+.top_cap{
+	position: absolute;
+	left: 60px;
+	top: 380px;
+	font-size: x-large;
+	font-weight: bold;
+}
+.cryptohopper-web-widget{
+	position: absolute;
+	top: 420px;
+	left: 10px;
+	width: 456px;
+}
+/* ===============колонка справа============= */
+.list_gain{
+	right: 2px;
+	position: absolute;
+	top: 1390px;
+}
+.qc-col{
+	display: none;
+}
+.qc-row{
+	opacity: 0;
+}
+.converter{
+	width: 450px;
+	position: absolute;
+	right: 2px;;
+	top:205px ;
+}
+.converter a{
+	display: none;
+}
+.top_gain{
+	display: flex;
+	position: absolute;
+	right: 15px;
+	top: 1380px;
+	font-size: 21px;
+	font-weight:bold
+}
+.converter_crypto{
+	display: flex;
+	position: absolute;
+	right: 73px;
+	top: 170px;
+	font-size: 25px;
+	font-weight:bold
+	
+}
+#quantify-link{
+	display: none;
+	border: none;
+}
+.pull-right{
+	display: none;
+}
+.title-bar{
+	display: none;
+}
+.logo_img{
+	width: 300px;
+	position: absolute;
+	top: 9px;
+    right: 0px;
+}
+.cardo{
+
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	width: 433px;
+	right: 15px;
+	top: 650px;
+
+}
+.cardo-body{
+	padding: 10px;
+	border: 1px solid #2479DF;
+	margin-top: 15px;
+	border-radius: 4px;
+}
+.cardo-subtitle{
+	position: relative;
+	display: flex;
+	margin-top: 10px;
+}
+.cardo-subtitle::after{
+	position: absolute;
+	z-index: 10;
+	content: url(/src/icons/rating4.png);
+
+
+}
+.cardo-title span{
+	font-weight: bold;
+	color: #2479DF;
+}
+.upcoming_events{
+	display: flex;
+	position: absolute;
+	right: 120px;
+	top: 632px;
+	font-size: 21px;
+	font-weight:bold
+
+}
