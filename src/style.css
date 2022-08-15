@@ -164,13 +164,8 @@ p{
 	display: flex;
 	margin-top: 10px;
 }
-.cardo-subtitle::after{
-	position: absolute;
-	z-index: 10;
-	content: url(/src/icons/rating4.png);
-
-
-}
+/* .cardo-subtitle::after{
+} */
 .cardo-title span{
 	font-weight: bold;
 	color: #2479DF;
